@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "postinstall": "cd client && npm run build",
-    "start": "cd server && npm run start"
+    "build": "cd client && npm i && npm run build",
+    "start": "cd server && npm i && npm run start"
   },
   "repository": {
     "type": "git",
