@@ -1,0 +1,8 @@
+{
+  "name": "Trivia App",
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
